@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+linter: 
+  rules:
+    - avoid_redundant_argument_values
+    - prefer_relative_imports
+    - require_trailing_commas
+    - prefer_single_quotes
