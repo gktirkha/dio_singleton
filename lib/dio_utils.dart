@@ -5,18 +5,10 @@ class DioUtils {
   DioUtils._privateConstructor();
 
   static DioUtils? _instance;
-
-  static DioUtils get instance {
-    _instance ??= DioUtils._privateConstructor();
-    return _instance!;
-  }
+  static DioUtils get instance => _instance ??= DioUtils._privateConstructor();
 
   static Dio? _dioClient;
-
-  Dio get dioClient {
-    _dioClient ??= _createInstance();
-    return _dioClient!;
-  }
+  Dio get dioClient => _dioClient ??= _createInstance();
 
   Dio _createInstance() {
     Dio dio = Dio();
